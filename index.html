@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="p5.dom.min.js"></script>
+
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script>
+    // Import the functions you need from the SDKs you need
+//import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAmGq5HpeLtKw2bUj4sISqo_u_dSMSvx0k",
+  authDomain: "tic-tac-toe-game-18333.firebaseapp.com",
+  databaseURL: "https://tic-tac-toe-game-18333-default-rtdb.firebaseio.com",
+  projectId: "tic-tac-toe-game-18333",
+  storageBucket: "tic-tac-toe-game-18333.appspot.com",
+  messagingSenderId: "430476384335",
+  appId: "1:430476384335:web:53c39697da82874a38323a"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+</script>
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="security.js"></script>
+    <script src="bridge.js"></script>
+    <script src="system.js"></script>
+    <script src="constraint.js"></script>
+  </body>
+</html>
